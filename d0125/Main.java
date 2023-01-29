@@ -15,6 +15,7 @@ public class Main {
 				dfs(i, computers,n);
 			}
 		}
+		System.out.println(syso);
 		return answer;
 	}
 	
