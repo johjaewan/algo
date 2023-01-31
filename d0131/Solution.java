@@ -1,6 +1,6 @@
-package d0125;
+package d0131;
 
-public class Main {
+public class Solution {
 	
 	static int visited[];
 
