@@ -1,7 +1,5 @@
 package d0128;
 
-import java.util.*;
-
 class Solution {
     public int solution(String t, String p) {
         int answer = 0;
