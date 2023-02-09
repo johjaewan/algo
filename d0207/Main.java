@@ -26,9 +26,7 @@ public class Main {
 			}
 			dp[i] = max;
 		}
-		System.out.println(Arrays.toString(dp));
-		System.out.println(dp[N]);
-		
+		System.out.println(dp[N]);	
 	}
 
 }
