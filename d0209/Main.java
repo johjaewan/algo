@@ -8,10 +8,7 @@ public class Main {
 		
 		int N = sc.nextInt();
 		
-		int dp[] = new int [N+1];
-		if(N == 1) {
-			System.out.println(1);
-		}
+		int dp[] = new int [N+2];
 		dp[1]=1;
 		dp[2]=2;
 		for(int i = 3; i<=N;i++) {
