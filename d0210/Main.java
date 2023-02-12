@@ -7,13 +7,13 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
-//		if(N<5) {
-//            if(N==3) System.out.println(1);
-//            else System.out.println(-1);
-//            return;
-//        }
+		if(N<5) {
+            if(N==3) System.out.println(1);
+            else System.out.println(-1);
+            return;
+        }
 
-		int dp[] = new int[N + 5];
+		int dp[] = new int[N + 1];
 		Arrays.fill(dp, 5001);
 		dp[3] = 1;
 		dp[5] = 1;
